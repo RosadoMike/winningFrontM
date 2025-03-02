@@ -31,7 +31,7 @@ const Navbar = () => {
     const fetchAvatar = async () => {
       try {
         if (userId) {
-          const response = await fetch(`https://winning-bid.onrender.com/api/users/${userId}/avatar`, {
+          const response = await fetch(`https://winning-bid-zmiw.onrender.com/api/users/${userId}/avatar`, {
             credentials: 'include',
           });
           const data = await response.json();
