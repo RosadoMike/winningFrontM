@@ -1,0 +1,80 @@
+.sidebarE {
+  position: fixed;
+  width: 78px;
+  height: 90vh;
+  left: 0;
+  top: 70PX;
+  background: #E1E8FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+/* Icons general styles */
+.sidebarE a, 
+.sidebarE button {
+  width: 100%;
+  padding: 15px 0;
+  color: #003B68;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.sidebarE a:hover,
+.sidebarE button:hover {
+  color: #55A2CE;
+}
+
+/* Main content area with flex-grow */
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  gap: 10px;
+}
+
+/* Top icons group */
+.top-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Bottom icons group */
+.bottom-icons {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Divider line */
+.dividerE {
+  width: 30px;
+  height: 1px;
+  background: #003B68;
+  opacity: 0.3;
+  margin: 5px 0;
+}
+
+/* Specific positioning for user and logout */
+.sidebar-link-profilE,
+.sidebar-button-logoutE {
+  margin-top: auto;
+}
+
+.sidebar-button-logoutE {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+.regispage {
+  
+  min-height: 100vh;
+  background: #0a3d62;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageregis {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.imageregis img {
+  width: 300%;
+  height: auto;
+  filter: brightness(1.2);
+  
+    height: 500px;
+}
+
+@media (max-width: 1024px) {
+  .imageregis {
+    display: none;
+  }
+}
