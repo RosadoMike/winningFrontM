@@ -16,7 +16,7 @@ api.interceptors.request.use((config) => {
 
 
     ///tienes que tener esto vamos a ahcerlo 
-    
+
 });
 
 api.interceptors.response.use(
